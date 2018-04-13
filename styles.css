@@ -4,8 +4,8 @@ body {
 .first_page {
 	background: #eff0f2;
 	max-width: 100%;
-	min-height: 985px;
-	padding: 80px 150px;
+/*	min-height: 985px;
+*/	padding: 80px 150px;
 	font-family: 'Montserrat', sans-serif;
 	margin: 0 auto;
 
@@ -22,7 +22,7 @@ body {
 	border-radius: 10%;
 	margin-bottom: 0.313em;
 }
-.main_text {
+h1 {
 	display: inline-block;
 	vertical-align: middle;
 	position: relative;
@@ -66,19 +66,11 @@ body {
 
 .second_page {
 	background: #f8fafa;
-	min-height: 985px;
+/*	min-height: 985px;*/
 	padding: 129px 150px 113px 150px;
 	display: inline-block;
 	font-family: 'Montserrat', sans-serif;
 	margin: 0 auto;
-}
-.text_center {
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-}
-.text_color {
-	font-family: 'Merriweather', serif;
-	color: rgba(0, 0, 0, 0.4);
 }
 .text_color_2 {
 	font-family: 'Raleway', sans-serif;
@@ -90,9 +82,6 @@ body {
 	vertical-align: middle;
 	width: 40%;
 	padding-top: 152px; 
-}
-h2 {
-	font-family: 'Merriweather', serif;
 }
 .picture {
 	background: url(background.png) no-repeat center;
@@ -127,3 +116,58 @@ label {
 		font-size: 10px;
 	} 
 }
+
+
+.featured_works {
+	max-width: 100%;
+/*	min-height: 985px;
+*/	padding: 130px 150px 125px 150px;
+/*	margin: 0 auto;
+*/}
+h2 {
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+h3 {
+	text-transform: uppercase;
+	font-family: Merriweather, serif;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.4);
+}
+.text_color {
+	color: rgba(0, 0, 0, 1);
+}
+.images_sizing {
+	width: 373px;
+	height: 362px;
+}
+.images_position_ibc {
+	margin-left: calc((100%) - 24px) / 3);
+	display: inline-block;
+}
+.our_services {
+	background: #f9fbfb;
+	max-width: 100%;
+	min-height: 985px;
+	padding: 80px 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;
+}
+.bigger_width {
+	width: 652px;
+	height: 371px; 
+}
+.smaller_width {
+	width: 474px;
+	height: 370px; 
+}
+#tea {
+/*	color: rgba(113, 245, 234, 0);*/
+	transition: background-size 0.2s cubic-bezier(113, 245, 234, 1)
+}
+/*#tea:hover {
+	color: rgba(113, 245, 234, 1);
+}
+*/
+
