@@ -3,9 +3,9 @@ body {
 }
 .first_page {
 	background: #eff0f2;
-	max-width: 100%;
-	min-height: 985px;
-	padding: 80px 150px;
+	/*max-width: 100%;*/
+/*	min-height: 985px;
+*/	padding: 80px 150px;
 	font-family: 'Montserrat', sans-serif;
 	margin: 0 auto;
 
@@ -22,7 +22,7 @@ body {
 	border-radius: 10%;
 	margin-bottom: 0.313em;
 }
-.main_text {
+h1 {
 	display: inline-block;
 	vertical-align: middle;
 	position: relative;
@@ -66,19 +66,10 @@ body {
 
 .second_page {
 	background: #f8fafa;
-	min-height: 985px;
 	padding: 129px 150px 113px 150px;
 	display: inline-block;
 	font-family: 'Montserrat', sans-serif;
 	margin: 0 auto;
-}
-.text_center {
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-}
-.text_color {
-	font-family: 'Merriweather', serif;
-	color: rgba(0, 0, 0, 0.4);
 }
 .text_color_2 {
 	font-family: 'Raleway', sans-serif;
@@ -126,4 +117,193 @@ label {
 	.contact {
 		font-size: 10px;
 	} 
+}
+.featured_works {
+	max-width: 100%;
+/*	min-height: 985px;
+*/	padding: 130px 150px 125px 150px;
+/*	margin: 0 auto;
+*/}
+h2 {
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+h3 {
+	text-transform: uppercase;
+	font-family: Merriweather, serif;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.4);
+}
+.text_color {
+	color: rgba(0, 0, 0, 1);
+}
+.images_sizing {
+	width: 373px;
+	height: 362px;
+}
+/*.images_position_ibc {
+	margin-left: calc((100%) - 24px) / 3);
+	display: inline-block;
+}*/
+.images_position_ibc img:nth-child(3n-1) {
+	margin: 0 12px;
+}
+.images_position_ibc img:nth-child(n+4) {
+	margin-top: 12px;
+}
+
+.our_services {
+	background: #f9fbfb;
+	padding: 80px 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;
+}
+.bigger_width {
+	width: 652px;
+	height: 371px; 
+}
+.smaller_width {
+	width: 474px;
+	height: 370px; 
+}
+.bottom_padding {
+	padding-bottom: 120px;
+}
+.images_position_tea {
+	width: calc(60% - 50px);
+	position: relative;
+}
+.images_position_implements {
+	width: calc(40% - 50px);
+}
+.our_services img {
+	display: inline-block;
+}
+.our_services div {
+	display: inline-block;
+}
+/*.images_tictbc {
+	max-width: 100%;
+	max-width: 1140px; 
+}*/
+
+.tea {
+	opacity: 0;
+	background-color: rgba(113, 245, 234, 1);
+	z-index: 2;
+	position: absolute;
+
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+
+}
+.tea:hover {
+	opacity: 1;
+}
+.text_tea {
+	padding: 63px 116px 66px 66px;
+	font-family: 'Raleway', sans-serif;
+}
+.implements {
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 1);
+	z-index: 2;
+	position: absolute;
+
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+
+}
+.implements:hover {
+	opacity: 0.5;
+}
+.small_team {
+	padding: 129px 150px 113px 150px;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;
+}
+/*.person_1 {
+	opacity: 1;
+	background-color: rgba(113, 245, 234, 0);
+	/*margin: 0;*/
+	/*z-index: 2;*/
+	/*position: absolute;*/
+	/*top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;*/
+
+/*}
+.person_1:hover {
+	opacity: 1;
+	background-color: rgba(113, 245, 234, 1);
+	/*z-index: 2; */
+	/*margin: 50px;*/
+/*}*/
+/*.people_text {
+
+}*/
+.what_they_says {
+	background: #f9fbfb;
+	padding: 129px 150px 113px 150px;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;
+}
+.human_picture {
+	background: url(background_2.png) no-repeat center;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 37px 42px;
+	/*margin-left: 500px; */
+	/*width: 322px;
+	height: ;*/
+}
+.new_text {
+	/*font-family: 'Raleway', sans-serif;
+	color: #848585;
+	background: #eaebed;
+	width: 666px;
+	height: 362px;*/
+}
+.content {
+	/*margin: 0px 50px 200px 155px;*/
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+	padding-top: 152px; 
+	font-family: 'Raleway', sans-serif;
+	/*color: #848585;*/
+	background: #eaebed;
+	max-width: 666px;
+	max-height: 362px;
+	margin: 161px 10px 72px 82px;
+	padding: 101px 81px 69px 86px;
+}
+.lorem_text_color {
+	color: #848585;
+}
+.stars.png {
+	text-align: center;
+	/*s*/
+	vertical-align: middle;
+}
+.partners {
+	padding: 129px 150px 113px 150px;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;
+}
+.contact_us {
+	background: url(christmas_snow_trees.png);
+	padding: 129px 150px 113px 150px;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto; 
 }
